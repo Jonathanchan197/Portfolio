@@ -14,7 +14,7 @@ const Contact = () => {
       <div>
         <h1> Interested?</h1>
         <p id="feedback">or want to give me some feedback </p>
-        <p>Get in touch with me here:</p>
+        <p>Contact me:</p>
         <h1>
           <a
             href="https://www.linkedin.com/in/jonathanchan197/"
