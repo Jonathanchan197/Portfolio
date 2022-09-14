@@ -35,7 +35,7 @@ const Contact = () => {
           </a>
         </h1>
         <p>Resume:</p>
-            <h1><a href="https://drive.google.com/file/d/1NILXeSXCMcu1YJcKANwgRT5xkpgqzz6S/view?usp=sharing" target="_blank">
+            <h1><a href="" target="_blank">
             <GrDocumentDownload/></a></h1>
       </div>
     </div>
