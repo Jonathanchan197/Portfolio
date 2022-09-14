@@ -5,6 +5,8 @@ import {
   AiOutlineMail,
   AiFillPhone,
 } from "react-icons/ai";
+import {GrDocumentDownload} from 'react-icons/gr'
+
 
 const Contact = () => {
   return (
@@ -32,6 +34,9 @@ const Contact = () => {
             <AiFillGithub />
           </a>
         </h1>
+        <p>Resume:</p>
+            <h1><a href="https://drive.google.com/file/d/1NILXeSXCMcu1YJcKANwgRT5xkpgqzz6S/view?usp=sharing" target="_blank">
+            <GrDocumentDownload/></a></h1>
       </div>
     </div>
   );
