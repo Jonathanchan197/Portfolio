@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 100%;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  background-color: #22223b;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container div {
+  width: 100%;
+  height: 100vh;
+  font-size: 5em;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  scroll-snap-align: start;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar {
+  width: 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+.about div {
+  font-size: 0.3em;
+  flex-direction: column;
+}
+
+.skills div {
+  font-size: 0.3em;
+  display: inline-block;
+  text-align: center;
+  height: 500px;
+}
+
+.skills h1 h4 {
+  line-height: 200px;
+}
+
+.skills p {
+  padding: 80px;
+}
+
+.projects div {
+  font-size: 0.3em;
+  display: inline-block;
+  text-align: center;
+}
+
+.projects h1 {
+  line-height: 80px;
+}
+
+.projects p {
+  padding: 10px;
+}
+
+.project-img {
+  height: 380px;
+  border: 2px solid black;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+
+.contact div {
+  font-size: 0.3em;
+  display: inline-block;
+  text-align: center;
+  height: 300px;
+  line-height: 60px;
+}
+
+.contact svg {
+  padding: 5px;
+  font-size: 125%;
+}
+
+#feedback {
+  font-size: 15px;
+}
+
+button {
+  font-size: 1em;
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.contact h1 {
+  margin-top: 20px;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .project-img {
+    height: 150px;
+    margin-top: 0px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .icon {
+    height: 50px;
+    padding: 0px;
   }
+
+  .skills p {
+    padding: 50px;
+    font-size: 75%;
+  }
+
+  .projects p {
+    padding: 20px;
+    font-size: 75%;
+  }
+  
 }
