@@ -1,13 +1,12 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Skills = () => {
   return (
     <div className="skills">
       <div>
-        <h1>About me</h1>
-        <p>Nice to meet you! I'm Jonathan a full stack developer ready to embark into my first junior software developer role. I've recently completed a software engineering immersive at General Assembly. I adopt a growth mindset and am always looking to improve my technical skills</p>
-        <h4>My Skills</h4>
-        <br/>
+        <h1>My Skills</h1>
+        <br />
         <img
           className="icon"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
@@ -43,19 +42,45 @@ const Skills = () => {
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
         />
 
-        {/* <img
-          className="icon"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
-        /> */}
-
         <img
           className="icon"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
         />
-        <p>Check out my projects below!</p>
 
+        <img
+          className="icon"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+        />
+
+        <img
+          className="icon"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
+        />
+
+        <img
+          className="icon"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+        />
+
+        <img
+          className="icon"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+        />
+
+        <img
+          className="icon"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+        />
+
+        <img
+          className="icon"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+        />
+
+        <p><Link to="#project-4" smooth>
+          Check out my projects here!
+        </Link></p>
       </div>
-
     </div>
   );
 };
