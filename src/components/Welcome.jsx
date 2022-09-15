@@ -3,7 +3,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 const Welcome = () => {
   return (
-    <div className="welcome">
+    <div className="welcome" id="welcome">
         <div>
         <h1>I'm Jonathan</h1>
         <h4>a full-stack developer</h4>

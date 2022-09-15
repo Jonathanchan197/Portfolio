@@ -1,10 +1,9 @@
 import React from "react";
-import { AiFillGithub, AiFillPlayCircle } from "react-icons/ai";
-import { HashLink as Link } from "react-router-hash-link";
+import {AiFillGithub, AiOutlineYoutube } from "react-icons/ai";
 
 export const Project0 = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="project-0">
       <div>
         <h1>Tic Tac Toe</h1>
         <img
@@ -29,7 +28,7 @@ export const Project0 = () => {
               )
             }
           >
-            <AiFillPlayCircle />
+            <AiOutlineYoutube />
           </button>
           <button
             onClick={(event) =>
@@ -49,7 +48,7 @@ export const Project0 = () => {
 
 export const Project1 = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="project-1">
       <div>
         <h1>Workout Tracker</h1>
         <img
@@ -77,7 +76,7 @@ export const Project1 = () => {
               )
             }
           >
-            <AiFillPlayCircle />
+            <AiOutlineYoutube />
           </button>
           <button
             onClick={(event) =>
@@ -97,7 +96,7 @@ export const Project1 = () => {
 
 export const Project2 = () => {
   return (
-    <div className="projects">
+    <div className="projects" id="project-2">
       <div>
         <h1>Coffee Dates</h1>
         <img
@@ -126,7 +125,7 @@ export const Project2 = () => {
               )
             }
           >
-            <AiFillPlayCircle />
+            <AiOutlineYoutube />
           </button>
           <button
             onClick={(event) =>
@@ -146,7 +145,7 @@ export const Project2 = () => {
 
 export const Project3 = () => {
   return (
-    <div className="projects" id="project-4">
+    <div className="projects" id="project-3">
       <div>
         <h1>Jello </h1>
         <img
@@ -172,7 +171,7 @@ export const Project3 = () => {
               )
             }
           >
-            <AiFillPlayCircle />
+            <AiOutlineYoutube />
           </button>
           <button
             onClick={(event) =>

@@ -3,7 +3,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <div>
         <h1>My Skills</h1>
         <br />
@@ -77,7 +77,7 @@ const Skills = () => {
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
         />
 
-        <p><Link to="#project-4" smooth>
+        <p><Link to="#project-3" smooth>
           Check out my projects here!
         </Link></p>
       </div>

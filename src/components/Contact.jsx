@@ -3,10 +3,8 @@ import {
   AiFillLinkedin,
   AiFillGithub,
   AiOutlineMail,
-  AiFillPhone,
+  AiOutlineFilePdf
 } from "react-icons/ai";
-import {GrDocumentDownload} from 'react-icons/gr'
-import { HashLink as Link } from "react-router-hash-link";
 
 const Contact = () => {
   return (
@@ -36,8 +34,8 @@ const Contact = () => {
           </button>
         </h1>
         <p>Resume:</p>
-            <h1><a href="" target="_blank">
-            <GrDocumentDownload/></a></h1>
+            <h1><a href="https://drive.google.com/file/d/1NILXeSXCMcu1YJcKANwgRT5xkpgqzz6S/view?usp=sharing" target="_blank">
+            <AiOutlineFilePdf/></a></h1>
       </div>
     </div>
   );
