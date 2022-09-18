@@ -75,6 +75,8 @@
 
 .projects h1 {
   line-height: 80px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .projects p {
