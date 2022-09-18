@@ -13,6 +13,7 @@ const About = () => {
         </p>
         <img
           className="project-img"
+          id="diagram"
           src={require("../images/diagramofme.png")}
           alt="tictactoe"
         />

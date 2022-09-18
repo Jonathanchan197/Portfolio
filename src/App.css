@@ -56,15 +56,23 @@
   font-size: 0.3em;
   display: inline-block;
   text-align: center;
-  padding: 200px;
+  padding: 150px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
-.skills h1{
+.skills h1 {
   line-height: 100px;
 }
 
 .skills p {
   padding: 80px;
+}
+
+.skills img {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  margin: 10px;
+  padding: 10px;
 }
 
 .projects div {
@@ -75,33 +83,36 @@
 
 .projects h1 {
   line-height: 80px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .projects p {
   font-size: smaller;
   padding: 10px;
   padding-top: 20px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 125px;
+  padding-right: 125px;
 }
 
 .project-img {
   height: 380px;
-  border: 2px solid white;
-  border-radius: 5px;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
 }
 
-.about p {
-  padding-left: 125px;
-  padding-right: 125px;
+#diagram {
+  filter: none;
 }
 
 .projects button {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.about p {
+  padding-left: 125px;
+  padding-right: 125px;
 }
 
 .about img {
@@ -137,12 +148,12 @@
 button {
   font-size: 1em;
   background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
 .widgets-container {
@@ -170,13 +181,12 @@ button {
 #widget-button :hover {
   color: rgba(255, 255, 255, 0.7);
   border-radius: 2px;
-} 
+}
 
 .navbar :hover {
   color: rgba(255, 255, 255, 0.7);
   border-radius: 2px;
-} 
-
+}
 
 nav {
   color: white;
@@ -198,10 +208,18 @@ nav {
 .contact svg {
   color: white;
 }
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-    color: white;
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar p {
+  font-size: 1em;
+  margin-top: 15.5px;
+  margin-bottom: 15.5px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -218,6 +236,12 @@ a:hover, a:visited, a:link, a:active
     padding: 0px;
   }
 
+  .skills img {
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+
   .skills h1 {
     padding-bottom: 50px;
     padding-top: 20px;
@@ -230,7 +254,7 @@ a:hover, a:visited, a:link, a:active
 
   .skills p {
     padding: 50px;
-    padding-top: 150px;
+    padding-top: 90px;
     font-size: 75%;
   }
 
@@ -250,7 +274,7 @@ a:hover, a:visited, a:link, a:active
     padding-left: 10px;
     padding-right: 10px;
   }
-  
+
   .about h1 {
     margin-top: 0;
   }
@@ -259,7 +283,7 @@ a:hover, a:visited, a:link, a:active
     padding-left: 0;
     padding-right: 0;
   }
-  
+
   .about img {
     height: 270px;
     border: 0;
@@ -269,5 +293,4 @@ a:hover, a:visited, a:link, a:active
   #widget-button {
     top: 625px;
   }
-
 }
