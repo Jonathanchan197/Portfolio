@@ -106,10 +106,10 @@ export const Project2 = () => {
         />
         <p>
           A group project where our goal was to simplify the cold contact
-          process on linked-in. Coffee dates allows users to register as mentors
-          or mentees, which they can then choose to pair with each other to
+          process on linked-in. Coffee dates allow users to register as mentors
+          or mentees, mentors can then choose to accept invitations from mentees to
           offer guidance in their respective industries. Once a match has been
-          formed a live chat is created between the two.
+          formed a live chat is created between the two users.
         </p>
 
         <p>
@@ -156,8 +156,7 @@ export const Project3 = () => {
         <p>
           After using Trello for many of my projects, I decided to create a
           productiviy app that takes inspiration. Jello features a drag and
-          droppable taskboard and workspaces for users to use. In-addition users
-          can invite other users to their workspaces and taskboards.{" "}
+          droppable taskboard and workspaces for users to manage tasks on. In-addition users can invite other users to their workspaces and taskboards to colloborate with.{" "}
         </p>
         <p>
           <b>Tech Stack:</b> JavaScript, React.js, CSS, npm, Firebase, Netlify

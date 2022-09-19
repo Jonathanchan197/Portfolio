@@ -9,7 +9,7 @@ const About = () => {
         <p>
           Nice to meet you! I'm Jonathan a full stack developer ready to embark
           into my first junior software developer role. I've recently completed
-          a software engineering immersive at General Assembly. I previously studied a bachelor of medical science at the University of Sydney. Coming from a medical science background has allowed my to approach problems with an analytical and problem-solving mindset. I believe I work best in an agile environment where I can grow and learn as an individual. I'm interested in any roles that could develop me further as a software engineer. 
+          a software engineering immersive course at General Assembly. Before coding, I previously studied a Bachelor of Medical Science at the University of Sydney. Coming from a medical science background has allowed my to approach problems with an analytical and problem-solving mindset. Because of my background I strive to build products that leave a positive and lasting impact. I'm interested in any roles that could develop me further as a software engineer. 
         </p>
         <img
           className="project-img"
