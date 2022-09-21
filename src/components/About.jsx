@@ -17,9 +17,6 @@ const About = () => {
           src={require("../images/diagramofme.png")}
           alt="tictactoe"
         />
-        <h4><Link to="#contact" smooth>
-          Contact me!
-        </Link></h4>
       </div>
     </div>
   );

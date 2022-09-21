@@ -7,7 +7,7 @@ import Contact from "./Contact";
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import "../App.css";
-import { AiOutlineHome } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineClose } from "react-icons/ai";
 import { RiContactsBookLine } from "react-icons/ri";
 import {
   BsClipboardCheck,
@@ -16,7 +16,7 @@ import {
   BsPersonCircle,
 } from "react-icons/bs";
 
-import { GiJelly, GiTicTacToe } from "react-icons/gi";
+import { GiJelly, GiTicTacToe, GiHamburgerMenu } from "react-icons/gi";
 import { SiBuymeacoffee } from "react-icons/si";
 import { BiDumbbell } from "react-icons/bi";
 
@@ -96,7 +96,7 @@ function App() {
       <div className="widgets-container">
         <div class="widget-icon">
           <button id="widget-button" onClick={handleToggle}>
-            {navDisplay ? <BsToggleOff /> : <BsToggleOn />}
+            {navDisplay ? <AiOutlineClose /> : <GiHamburgerMenu />}
           </button>
           {navDisplay ? (
             <>

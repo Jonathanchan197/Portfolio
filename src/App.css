@@ -36,6 +36,10 @@
 .welcome div {
   font-size: 0.3em;
   flex-direction: column;
+  background-image: url(../public/welcome-background.png);
+  background-repeat:no-repeat;
+  background-position: cover;
+  background-size: 100%;
 }
 
 .welcome p {
@@ -50,6 +54,8 @@
 
 .about h1 {
   line-height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .skills div {
@@ -118,8 +124,7 @@
 .about img {
   height: 450px;
   border: 0;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 50px;
 }
 
 .icon {
@@ -161,7 +166,6 @@ button {
   top: 60px;
   right: 30px;
   z-index: 9999;
-  background-color: rgba(34, 34, 59, 0.8);
   padding: 10px;
 }
 
@@ -172,8 +176,8 @@ button {
 
 #widget-button {
   position: fixed;
-  top: 10px;
-  right: 30px;
+  top: 20px;
+  right: 37px;
   font-size: 125%;
   transition: filter 300ms;
 }
@@ -208,6 +212,7 @@ nav {
 .contact svg {
   color: white;
 }
+
 a:hover,
 a:visited,
 a:link,
@@ -223,6 +228,10 @@ a:active {
 }
 
 @media only screen and (max-width: 600px) {
+  .welcome div {
+    background-size: 300%;
+  }
+
   .project-img {
     height: 150px;
     margin-top: 0px;
@@ -285,12 +294,17 @@ a:active {
   }
 
   .about img {
-    height: 270px;
+    height: 220px;
     border: 0;
-    padding-top: 20px;
+    margin: 0;
+    margin-top: 30px;
   }
 
   #widget-button {
     top: 625px;
+  }
+
+  .widgets-container {
+    background-color:rgba(34, 34, 59, 0.5);
   }
 }
